@@ -6,14 +6,14 @@ function App() {
       <div className="header">
         <h1>React card Component</h1>
       </div>
-      <div className="card">
-        <card/>
+      <div className="cards">
+        <Card/>
       </div>
     </div>
   );
 };
 
-const card=()=>{
+const Card=()=>{
   return(
     <div className="card">
       <img
@@ -23,6 +23,7 @@ const card=()=>{
       <div className="card-body">
         <h2>Title of the card</h2>
         <p>caption text about the card </p>
+        <h5>Author Name</h5>
       </div>
     </div>
   );
